@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 
+
+        </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body> 
+      <h1>
+          Phát Web's IOT
+      </h1>
+      <h2>
+           Bảng Điều Khiển Thiết Bị Qua Internet
+      </h2>
+      <table>
+          <thead>
+           <th>
+               Thiết Bị 1
+           </th>
+           <th>
+               Thiết Bị 2
+           </th>
+           <th>
+               Thiết Bị 3
+           </th>
+           <th>
+               Chế Độ
+           </th>
+           <th>
+               Trạng Thái TB1
+           </th>
+           <th>
+               Trạng Thái TB2
+           </th>
+           <th>
+               Trạng Thái TB3
+           </th>
+          </thead>
+          <tbody>
+              <td>
+                <button id="ON"> ON</button> 
+                <br>
+              </br>
+                <button id="OFF">OFF</button>
+              </td>
+          <td>
+              <button id="ON">ON</button>
+              <br>
+              <br>
+              <button id="OFF">OFF</button>
+          </td>
+          <td>
+            <button id="ON">ON</button>
+            <br>
+            <br>
+            <button id="OFF">OFF</button>
+        </td>
+        <td>
+            <button id="auto" >AUTO</button>
+            <br>
+            <br>
+            <button id="manual">MANUAL</button>
+        </td>
+        <td>
+            <label>
+                Đang tắt
+            </label>
+        </td>
+        <td>
+            <label>
+                Đang tắt
+            </label>
+        </td>
+        <td>
+            <label>
+                Đang tắt
+            </label>
+        </td>
+
+          </tbody>
+      </table>
+      <h2>
+          Bảng Xem Xét Độ Ẩm Và Nhiệt Độ
+      </h2>
+      <table>
+          <thead>
+            <th>
+                Độ Ẩm
+            </th>
+            <th>
+                Nhiệt Độ
+            </th>
+          </thead>
+          <tbody>
+              <td>
+                  <label id =" test">ON</label>
+              </td>
+              <br>
+            <br>
+            <td>
+                <label >0</label>
+            </td>
+          </tbody>
+          <label id="1">1</label>
+          <script>
+              var test ="ON";
+              //var cc=document.getElementById("test").innerHTML;
+              if(test.localeCompare(cc) == 0){
+                document.getElementById("1").innerHTML="true";
+              }
+          </script>
+
+      </table>
+    </body>
+</html>
